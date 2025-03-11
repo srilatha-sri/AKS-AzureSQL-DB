@@ -10,8 +10,8 @@ spring:
       dialect : org.hibernate.dialect.SQLServer2012Dialect
 
 server:
-  port: 9191
+  port: 9192
 
-#test
+
 
 

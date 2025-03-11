@@ -32,7 +32,7 @@ jobs:
 
       - run: |
          docker build . -t pocacrdemo567.azurecr.io/k8sdemo:${{ github.sha }}
-         docker push contoso.azurecr.io/k8sdemo:${{ github.sha }}
+         docker push pocacrdemo567.azurecr.io:${{ github.sha }}
 
     
 
